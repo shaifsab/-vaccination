@@ -1,3 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
 .bannerPage{
-    @apply bg-[url('../../assets/images/background.png')] py-[210px] bg-no-repeat bg-cover bg-center;
+    @apply bg-[url('../../assets/images/background.png')] pt-[210px] bg-no-repeat bg-cover bg-center;
+}
+.bannerMain{
+    @apply flex justify-between
+}
+.text{
+    @apply w-[603px]
+}
+.text h4{
+    @apply text-brandColor font-montserrat font-bold text-[24px] 
+}
+.text h1{
+    @apply text-white font-montserrat font-extrabold text-[48px] mt-[40px] mb-[50px]
+}
+.text p{
+    @apply text-[rgba(255,255,255,0.70)] font-montserrat font-bold text-[24px] 
+}
+.button{
+    @apply flex gap-5 mt-[50px] mb-[120px]
+}
+.schedule {
+    @apply flex items-center gap-5 mb-5
+}
+.schedule p{
+   @apply text-white font-montserrat font-bold text-[24px] 
+}
+.bannerImage img {
+    @apply w-[622px] h-[617px]; 
 }

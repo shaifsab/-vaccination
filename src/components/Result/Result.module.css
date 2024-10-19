@@ -1,0 +1,27 @@
+.resultPage{
+    @apply bg-[url('../../assets/images/background-result.png')] py-[63px] bg-no-repeat bg-cover bg-center;
+}
+.resultBox{
+    @apply w-full h-[340px] bg-[rgba(196,196,196,0.10)] rounded-[20px] 
+}
+.resultBoxItems{
+    @apply w-full h-[101px] rounded-t-[20px] bg-[rgba(196,196,196,0.10)] flex items-center
+}
+.resultBox p{
+    @apply text-white font-montserrat font-bold text-[24px] ml-[93px]
+}
+.inputItem {
+    @apply flex gap-20 my-[35px]
+}
+.inputItem input{
+    @apply w-[450px] h-[69px] rounded-[20px] bg-transparent text-white font-montserrat font-bold text-[24px] pl-[25px] ring-[3px] ring-[rgba(196,196,196,0.15)] focus:ring-[#17C2EC] p-2
+}
+.inputItem button{
+    @apply text-white font-montserrat font-bold text-[24px] bg-secondColor px-[47px] py-[17px] border-[3px] border-[#17C2EC] rounded-[20px] inline-block hover:bg-[#17C2EC] transition-all duration-75;
+}
+.inputField h3{
+    @apply text-[#17C2EC] font-montserrat font-bold text-[24px] py-[20.5px] px-[175px] rounded-[20px] mb-[31px] bg-[rgba(196,196,196,0.15)]
+}
+.inputField{
+    @apply flex flex-col items-center
+}

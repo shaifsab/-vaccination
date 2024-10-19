@@ -1,0 +1,65 @@
+.protectsPage{
+    @apply bg-[url('../../assets/images/background-protect.png')] pt-[57px] pb-[80px] bg-no-repeat bg-cover bg-center;
+}
+.protectsText {
+    @apply flex justify-between
+}
+.protectsText h1{
+    @apply text-white font-montserrat font-bold text-[47px]
+}
+.protectsText p{
+    @apply text-[rgba(255,255,255,0.50)] font-montserrat font-normal text-[20px]
+}
+
+.readPortion{
+    @apply flex items-end justify-between mt-[40px]
+}
+.cardBox{
+    @apply pt-[40px] ml-[40px] w-[354px] 
+}
+.cardOne {
+    @apply  w-[450px] h-[500px] bg-[rgba(196,196,196,0.20)] rounded-[50px] rounded-tr-[149.69px]
+}
+.iconBig{
+    @apply w-[100px] h-[100px] bg-secondColor rounded-[30px] text-[70px] flex justify-center items-center text-brandColor 
+}
+.cardOne h1{
+    @apply font-montserrat font-bold text-[24px] text-brandColor mt-[40px] mb-[30px]
+}
+.cardOne p{
+    @apply font-montserrat font-medium text-[18px] text-white mb-[40px]
+}
+.readmore {
+    @apply flex gap-[10px]
+}
+.readmore h2 {
+    @apply font-montserrat font-bold text-[18px] text-brandColor
+}
+.readmoreIcon {
+    @apply font-montserrat font-bold text-[30px] text-brandColor
+}
+
+
+
+/* card two  */
+.cardTwo {
+    @apply w-[347px] h-[347px] border-[3px] hover:bg-[rgba(196,196,196,0.20)]  rounded-[50px] border-[rgba(255,255,255,0.50)]
+}
+.icon{
+    @apply w-[70px] h-[70px]  bg-secondColor rounded-[20px] text-[48px] flex justify-center items-center text-white 
+}
+.cardInside{
+    @apply mt-[40px] m-[40px]
+}
+.cardInside h1{
+    @apply font-montserrat font-bold text-[24px] text-white mt-[40px] mb-[53px] 
+}
+.read{
+    @apply flex gap-[10px]
+}
+.read h2{
+    @apply font-montserrat font-bold text-[18px] text-[rgba(255,255,255,0.50)]
+}
+.readIcon {
+    @apply font-montserrat font-bold text-[30px] text-[rgba(255,255,255,0.50)]
+}

@@ -1,8 +1,11 @@
-.navPage{
-    @apply pt-[41px] absolute w-full hidden lg:block;
+.footerPage{
+    @apply bg-[url('../../assets/images/footer-bg.png')] bg-no-repeat bg-cover bg-center 
+}
+.images{
+    @apply float-start
 }
 .menuRow{
-    @apply flex items-center justify-between;
+    @apply flex items-center justify-between pb-[123px] pt-[107px]
 }
 .menuLogo {
     position: relative;
@@ -33,11 +36,4 @@
 }
 .menuItems ul li a{
     @apply font-montserrat font-medium text-[24px] text-[rgba(255,255,255,.50)]  focus:text-white
-}
-
-.menuButton{
-    @apply hover:bg-brandColor transition-all duration-75 hover:text-white py-[20px] px-[26px] bg-[rgba(196,196,196,.10)] rounded-[20px] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]
-}
-.menuButton a{
-    @apply font-montserrat font-bold text-[24px] text-brandColor 
 }

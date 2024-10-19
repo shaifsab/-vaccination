@@ -1,0 +1,50 @@
+.feedbackPage{
+}
+.feedbackItems{
+    @apply flex flex-col items-center
+}
+.feedbackItems h3{
+    @apply text-[#17C2EC] font-montserrat font-bold text-[24px] mt-[67px] mb-[20px]
+}
+.feedbackItems h1{
+    @apply text-black font-montserrat font-extrabold text-[48px] mb-[40px]
+}
+.feedbackItems p{
+    @apply text-[rgba(0,0,0,0.50)] font-montserrat font-medium text-[24px] mb-[100px]
+}
+.covidImg{
+    @apply absolute z-[-1] mt-[250px] pb-[250px]
+} 
+.feedbackCard{
+    @apply w-[400px] h-[250px] bg-[rgba(196,196,196,0.50)] rounded-[20px]
+
+    hover:bg-[#17C2EC]  hover:shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]
+}
+
+
+.cardAll{
+    @apply flex gap-[53px] mb-[106px]
+}
+.cardUpper{
+    @apply flex items-center pt-[30px] ml-[30px]
+}
+.cardUpper span{
+    @apply ml-[20px]
+}
+.cardUpper span h2{
+    @apply text-black font-montserrat font-bold text-[24px] mb-[5px]
+}
+.cardUpper span p{
+    @apply text-[rgba(0,0,0,0.50)] font-montserrat font-bold text-[14px] inline
+}
+
+/* card lower  */
+.cardLowerr{
+    @apply text-center
+}
+.cardLowerr p{
+    @apply text-[rgba(0,0,0,0.60)] font-montserrat font-medium text-[18px] mt-[40px] 
+}
+.cardLowerr p span{
+    @apply text-[#17C2EC]
+}

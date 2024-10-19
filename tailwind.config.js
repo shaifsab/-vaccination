@@ -7,7 +7,10 @@ export default {
   theme: {
     extend: {
       colors:{
-        'brandColor' : '#17C2EC'
+        'brandColor' : '#17C2EC',
+        'secondColor' : '#c4c4c41a',
+        'thirdColor' : '#FFFFFF80' 
+
       }
     },
     container: {

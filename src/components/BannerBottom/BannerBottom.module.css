@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.bannerBottom{
+    @apply w-full h-[160px] bg-[rgba(196,196,196,0.15)] rounded-t-[20px] flex items-center justify-center gap-[137px]
+}
+.icon{
+    @apply flex gap-[50px]
+}
+.iconItem {
+    @apply flex items-center
+}
+.card{
+    @apply ml-5
+}
+.card p{
+    @apply text-thirdColor font-montserrat font-semibold text-[24px] 
+} 
+.card h4{
+    @apply text-white font-montserrat font-bold text-[24px] 
+} 

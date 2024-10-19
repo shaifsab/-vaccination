@@ -1,10 +1,9 @@
 :root {
     /* Color Palette */
-    --color-primary: #3498db;
-    --color-secondary: #2ecc71;
+    --color-primary: #17C2EC;
+    --color-secondary: #c4c4c426;
     --color-background: #f5f5f5;
-    --color-text: #333333;
-    --color-border: #dddddd;
+    --color-text: #ffffff80;
   
     /* Typography */
     --font-family-base: 'Helvetica Neue', Arial, sans-serif;

@@ -1,0 +1,50 @@
+.registrationPage{
+    @apply bg-[rgba(255,255,255,0.50)] 
+}
+.items{
+    @apply flex justify-between
+}
+.feedbackCard{
+    @apply w-[652px]
+}
+.feedbackCard h1{
+    @apply text-black font-montserrat font-bold text-[48px] mt-[28px] ml-[20px] mb-[52px]
+}
+.formPatient h4{
+    @apply text-black font-montserrat font-bold text-[24px]
+}
+.formPatient input{
+    @apply w-[650px] h-[70px] mt-[20px] mb-[40px] rounded-[29px] text-[rgba(0,0,0,0.25)] font-montserrat font-medium text-[24px] pl-[30px] bg-[rgba(11,21,60,0.15)]
+}
+.mobileNumber h4{
+    @apply text-black font-montserrat font-bold text-[24px]
+}
+.mobileNumber p{
+    @apply text-[rgba(0,0,0,0.50)] font-montserrat font-medium text-[20px] py-[20px]
+}
+.dropdown {
+    @apply flex gap-[36px]
+}
+.dropdown button{
+    @apply text-white font-montserrat font-bold text-[24px] bg-brandColor py-[20px] px-[70px] rounded-[20px] inline-block hover:bg-[#7195be] transition-all duration-75;
+
+}
+.submitBtn button{
+    @apply text-white font-montserrat font-bold text-[24px] mt-[20px] mb-[40px] bg-brandColor py-[20px] px-[279px] rounded-[20px] inline-block hover:bg-[#7195be] transition-all duration-75;
+}
+.linkBtn{
+    @apply flex gap-[46px] justify-center
+}
+.linkBtn span{
+    @apply text-[rgba(0,0,0,0.50)] font-montserrat font-semibold text-[20px] hover:text-[#17C2EC] hover:font-bold mb-[33px]
+}
+
+
+.imageLeft{
+    @apply w-[401px] relative mt-[75px]
+}
+.verifyBtn{
+    @apply absolute bottom-[160px] left-[111px] text-white font-montserrat font-bold text-[20px] mt-[20px] mb-[40px] bg-[rgba(196,196,196,0.25)] py-[13px] px-[33px] rounded-[20px] inline-block hover:bg-[#7195be] transition-all duration-75;
+
+}
+
